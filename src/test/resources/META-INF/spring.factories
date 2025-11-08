@@ -1,0 +1,6 @@
+org.springframework.test.context.ContextCustomizerFactory = \
+    com.blo.jobtracker.config.\
+    SqlTestContainersSpringContextCustomizerFactory,com.blo.jobtracker.config.\
+    TestContainersSpringContextCustomizerFactory,com.blo.jobtracker.config.\
+    RedisTestContainersSpringContextCustomizerFactory,com.blo.jobtracker.config.\
+    KafkaTestContainersSpringContextCustomizerFactory
